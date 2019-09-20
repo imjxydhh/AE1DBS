@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+<title>Sunny Isle - Login</title>
+<link rel = "stylesheet" type = "text/css" href = "SunnyIsle.css"/><!--css of the whole page-->
+<script type = "text/javascript" src = "index_ajax.js"></script><!--event_driven functions-->
+</head>
+<body>
+<div class = "index_header">
+	<div class = "join_link">
+		<div class = "join_prompt">
+			<label>Not our member yet? Join us!
+			<a href = "register/register.php">[Create Account]</a>
+			</label>
+		</div>
+	</div>
+	<div class = "logo">
+		<span class = "logo"><img id = "logo" src = "logo.png"/></span>
+	</div>
+</div>
+<div class = "navigation">
+	<div class = "naviContent">Login page</div>
+</div>
+<div class = "wrapBox">
+	<div class = "loginWrap" >
+		<div class = "loginBox">
+			<div class = "login">
+				<div class = "inp_header">
+					<h2>Sign in</h2>
+					<div id = "blankMsg" class = "blankMsg"></div><br/>
+				</div>
+				<div class = "input">
+				<form id = "login_form" onsubmit = "return chkLogin();">
+					<label><input class = "username" type = "text" name = "username" placeholder = "Username"/></label><br/><br/>
+					<label><input class = "password" type = "password" name = "password" placeholder = "Password" /></label><br/>
+					<input class = "loginSbm" type = "submit" value = "SIGN IN"/>
+				</form>
+				</div>
+				<div class = "forgot_pass">
+				</div>
+			</div>
+			<div class = "loginBottom">
+				<a class = "staffUrl" href = "staff/staffin.php">If you are our staff, please click here</a>
+			</div>
+			<div style="clear:both"></div>
+		</div>
+		<div style="clear:both"></div>
+	</div>
+</div>
+</body>
+</html>

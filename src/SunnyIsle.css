@@ -1,0 +1,315 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: Calibri;
+	font-size: 1.1em;
+}
+
+[type='submit'],button, a{
+	cursor: pointer;
+}
+
+[type='text'],[type='password']{
+	background-color:#e4e7e8;
+	width:360px;
+	border-radius:3px;
+	border: 1px solid #e4e7e8;
+	height: 30px;
+	padding-left: 5px;
+}
+
+a{
+	text-decoration: none;
+	color: #005597;
+	transition: color 0.2s;
+	-moz-transition: color 0.2s; /* Firefox 4 */
+	-webkit-transition: color 0.2s; /* Safari and Chrome */
+	-o-transition: color 0.2s;
+}
+
+
+a:hover{
+	color: rgb(155,3,3);
+}
+
+div.logo{
+	color: white;
+	background-color: #051f38;
+	height: 85px;
+}
+
+span.logo{
+	line-height:85px;
+}
+
+#logo{
+	height: 85px;
+	position: relative;
+	margin-left: -125px;
+	left:50%;
+}
+
+div.navigation{
+	border: 0.25px solid #eaeaea;
+	background-color: #eaeaea;
+	height: 40px;
+	width: 100%;
+	text-align: left;
+}
+
+div.login_state, div.join_link{
+	height: 30px;
+}
+
+div.naviContent{
+	height: 100%;
+	line-height: 40px;
+	margin-left:22.5px;
+	font-size:1.1em;
+}
+
+div.logInOut, div.join_prompt{
+	height: 100%;
+	line-height: 30px;
+	text-align:right;
+	margin-right:22.5px;
+	font-size:1.1em;
+}
+
+span.accountInfo{
+	text-align:left;
+	margin-left:22.5px;
+}
+
+.wrapBox{
+	height: 650px;
+}
+
+div.regiBody{
+	height:400px;
+	position:relative;
+	left:50%;
+	margin-left:-150px;
+	font-size:1.25em;
+}
+
+input.regi,  div.regiHeader{
+	width:300px;
+}
+
+.regiform, div.regiBody{
+	min-width: 1px;
+}
+
+input.regi_sbmt{
+	background-color: #104c97;
+	border: 1px solid #104c97;
+	border-radius:3px;
+	position:relative;
+	height:35px;
+	top:25px;
+	color:white;
+	font-size:1.2em;
+	font-family: Calibri,Arial;
+	width:150px;
+	left:150px;
+	margin-left:-75px;
+}
+span.blankpmt,#blankMsg{
+	font-size:0.7em;
+	color: #a94442;
+	background-color:#f2dede;
+	border:1px transparent #ebcccc;
+	border-radius:3px;
+}
+
+div.loginWrap{	
+	min-height: 1px;
+	width: 400px;
+	position:relative;
+	top: 40%;
+	margin-top: -200px;
+	left:50%;
+	margin-left: -200px;
+	border-radius:3px;
+	border: 3px solid #eaeaea;
+}
+
+div.loginBox{
+	position:relative;
+	min-height: 1px;
+	font-size: 1.25em;
+	margin: 20px;
+}
+
+div.loginBottom{
+	position:relative;
+	top:75px;
+	height:120px;
+}
+
+input.username, input.password{
+	height:50px;
+	font-size:15px;
+}
+
+input.loginSbm{
+	background-color: #104c97;
+	border: 1px solid #104c97;
+	border-radius:3px;
+	position:relative;
+	width:360px;
+	height:75px;
+	top:25px;
+	color:white;
+	font-size:1.3em;
+	font-family: Calibri,Arial;
+}
+
+.staffUrl{
+	font-size: 0.7em;
+}
+
+.infoForm{	
+	width: 20%;
+}
+
+div.roomTable{
+	width: 80%;
+	left: 20%;
+}
+div.infoForm, div.roomTable{	
+	height: 100%;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+	float:left;
+}
+
+.inDate, .outDate, .roomType, .searchBtn, .loginBtn{
+	width: 100%;
+	height: 162.5px;
+	display: table;
+	text-align: center;
+}
+
+.loginBtn{
+	line-height:162.5px;
+	font-size:1.1em;
+}
+
+label.formContent{
+	position: relative;
+	top:30px;
+}
+
+.floor{
+	height: 10%;
+	text-align: center;
+}
+
+.floorText{
+	height: 100%;
+	line-height: 50px;
+}
+
+table.roomTable{
+	width: 90%;
+	height: 90%;
+	margin: auto;
+	margin-top:3.5%;
+	margin-bottom:2.5%;
+}
+
+.ldb{
+	color: rgb(0,176,240);
+}
+
+.lsb{
+	color: rgb(196,89,17);
+}
+
+.ssb{
+	color: rgb(56,86,35);
+}
+#vip13{
+	color: rgb(192,0,0);
+}
+
+.unavailable{
+	color: gray;
+}
+
+.roomTable, .inDate, .outDate, .roomType, .searchBtn{
+	border-width:0.25px;
+	border-style: solid;
+	border-color:gray;
+	border-collapse: collapse;
+	font-size: 1.1em;
+	
+}
+{
+	border-collapse: collapse;
+}
+
+#blank2, #blankRow2, #blank1, #blankRow1, #stairs, #stairsRow, tr{
+	border-style: none;
+	border-width: 0px;
+}
+#blank2, #blank1{
+	height: 40px;
+}
+
+#stairs{
+	text-align: center;
+	font-size: 2.5em;
+}
+
+div.orderBox, div.staffOrderbox{
+	background-color: #eaeaea;
+	position:relative;
+	top:25px;
+	width:100%;
+	min-height:80%;
+	font-size:0.9em;
+	text-align:center;
+}
+
+h2.record{
+	width:100%;
+	text-align:center;
+}
+
+table.record,td.back{
+	text-align:center;
+	width: 60%;
+	position:relative;
+	margin:auto;
+}
+
+td.record{
+	width:20%;
+}
+
+td.back{
+	font-size:1.1em;
+	height:50px;
+}
+
+div.pageNavi{
+	height: 79px;
+	line-height:79px;
+	text-align:center;
+}
+
+div.promptBox{
+	width:100%;
+	margin:auto;
+	margin-top:25px;
+	text-align:center;
+	background-color: #eaeaea;
+}
+
+#currentPage{
+	text-decoration: underline;
+}
