@@ -1,3 +1,3 @@
 # AE1DBS
-A simple hotel management system
-The entrance of the system is src/index.html 
+A simple hotel management system.\n
+The entrance of the system is src/index.html .
