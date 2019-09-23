@@ -23,7 +23,7 @@ a{
 	color: #005597;
 	transition: color 0.2s;
 	-moz-transition: color 0.2s; /* Firefox 4 */
-	-webkit-transition: color 0.2s; /* Safari and Chrome */
+	-webkit-transition: color 0.2s; /* Safari and Chrome test */
 	-o-transition: color 0.2s;
 }
 
